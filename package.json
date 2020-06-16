@@ -1,0 +1,17 @@
+{
+  "name": "lexue-completion-helper",
+  "version": "1.0.0",
+  "description": "自动勾选乐学平台的“已完成”框",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc index.ts",
+    "start": "node index.js"
+  },
+  "author": "OrdosX",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "got": "^11.3.0"
+  }
+}
