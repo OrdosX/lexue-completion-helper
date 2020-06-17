@@ -52,6 +52,7 @@ var asymcToggleCompletion_1 = require("./asymcToggleCompletion");
                 courses.forEach(function (course) {
                     asymcToggleCompletion_1["default"](cookie, course.link);
                 });
+                console.log('完成 / Completed');
                 return [2 /*return*/];
         }
     });

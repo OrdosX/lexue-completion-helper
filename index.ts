@@ -8,4 +8,5 @@ import asyncToggleCompletion from "./asymcToggleCompletion";
     courses.forEach(course => {
         asyncToggleCompletion(cookie, course.link)
     })
+    console.log('完成 / Completed');
 })().catch(e => {console.log(e)});
